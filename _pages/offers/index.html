@@ -1,0 +1,44 @@
+---
+layout: standard
+id: offers
+title: Offers
+nav-order: 4
+
+
+
+intro: >
+  <p class="text--xl">Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+
+---
+
+
+
+<div class="intro{% if page.sections %} has-nav{% endif %}">
+  <div class="wp" id="section-intro"></div>
+
+  <div class="intro__content section row row--padding text--center">
+    {{page.intro}}
+  </div>
+
+  {% if page.sections %}
+  <div class="intro__nav">
+    {% include nav/page-nav.html %}
+  </div>
+  {% endif %}
+
+</div>
+
+
+
+<div class="section bg--grey-lightest">
+  <div class="row row--padding">
+    {% include components/offers.html %}
+  </div>
+</div>
+
+
+
+{% include components/offer-promo.html %}
+
+

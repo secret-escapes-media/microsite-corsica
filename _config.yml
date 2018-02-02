@@ -1,0 +1,25 @@
+# Site settings
+title: Corsica
+
+clients:
+
+  - name: Visit Corsica
+    link: "https://www.visit-corsica.com/en"
+
+  - name: France
+    link: "http://uk.france.fr/en/feel-corsica-0"
+    svg: true
+
+description: Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+baseurl: "/corsica" # the subpath of your site, e.g. /blog/
+url: "http://mp.secretescapes.com" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [js/scripts.min.js]
+sass:
+    sass_dir: css
+    style: compressed

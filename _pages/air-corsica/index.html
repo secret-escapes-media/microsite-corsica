@@ -1,0 +1,113 @@
+---
+layout: standard
+id: air-corsica
+title: Air Corsica
+nav-order: 2
+
+
+
+intro: >
+  <p class="text--xl">Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+  <a href="#section-flights" class="btn btn--lg btn--solid">View flights</a>
+
+
+
+features:
+
+  - title: Airline features
+    id: airline-01
+    description: >
+      <p>Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+  - title: Airline features
+    id: airline-02
+    description: >
+      <p>Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+
+
+
+flights:
+  title: Flights with Air Corsica
+  description: >
+    <p class="text--xl">Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue.</p>
+
+  prices-title: Flight Options
+  prices:
+    - title: Economy return from
+      price: "659"
+    - title: Business return from
+      price: "3,499"
+
+---
+
+
+
+<div class="intro{% if page.sections %} has-nav{% endif %}">
+  <div class="wp" id="section-intro"></div>
+
+  <div class="intro__content section row row--padding text--center">
+    {{page.intro}}
+  </div>
+
+  {% if page.sections %}
+  <div class="intro__nav">
+    {% include nav/page-nav.html %}
+  </div>
+  {% endif %}
+
+</div>
+
+
+
+
+<div class="section bg--grey-lightest">
+  <div class="row row--xxl row--padding row--6-6-gutters">
+
+  {% for feature in page.features %}
+    <div class="col">
+      <div class="bg-img bg-img--16-9" style="background-image: url({{site.baseurl}}/img/content/air-corsica/{{feature.id}}.jpg);"></div>
+      <div class="space--xs"></div>
+      <h4 class="title title--md title--bold">{{feature.title}}</h4>
+      {{feature.description}}
+      <div class="space--xs"></div>
+    </div>
+  {% endfor %}
+
+  </div>
+</div>
+
+
+
+
+{% assign flights = page.flights %}
+<div class="section vpad--xxl bg--theme-primary text--white">
+  <div class="wp" id="section-flights"></div>
+
+  <div class="row row--padding text--center">
+    <h3 class="title title--md title--lined title--display title--upper title--kerning">{{flights.prices-title}}</h3>
+  </div>
+
+  <!-- FLIGHTS CLASSES -->
+  <div class="row row--xl row--padding row--6-6-gutters text--center">
+
+    {% for price in flights.prices %}
+    <div class="col">
+      <div class="bg--black-20 bg--rounded row--padding vpad--md">
+        <p class="text--bold title--xxxs">{{price.title}}</p>
+        <span class="title title--bold">£<span class="title--xs">{{price.price}}*</span></span>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+  <!-- FLIGHTS CTA -->
+  <div class="row row--padding text--center">
+    <a href="{{site.baseurl}}/air-corsica" id="tracking-button-flights-section" target="_blank" class="btn btn--lg btn--white">View flights</a>
+  </div>
+
+</div>
+
+
+
