@@ -34,4 +34,9 @@
     &-sm { width: 140px; }
     & + * { padding-left: 1em; }
   }
+  &--air-corsica { // max-width for this is about 150x46px
+    width: 120px;
+    &-sm { width: 100px; }
+    & + * { padding-left: 1em; }
+  }
 }
