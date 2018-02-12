@@ -1,5 +1,5 @@
 ---
-layout: standard
+layout: competition
 id: competition
 title: Competition
 nav-order: 3
@@ -14,71 +14,18 @@ intro: >
 
 prizes:
 
-  - title: Prize 1
+  - title: Flights
+    subtitle: with Air Corsica
     id: prize-1
-    description: >
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
-  - title: Prize 2
+  - title: Stay
+    subtitle: in 5* luxury
     id: prize-2
-    description: >
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
-  - title: Prize 3
+  - title: Corsica
+    subtitle: Experience Corsica
     id: prize-3
-    description: >
-      <p class="text--lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 
 
 
 ---
-
-
-
-<div class="intro{% if page.sections %} has-nav{% endif %}">
-  <div class="wp" id="section-intro"></div>
-
-  <div class="intro__content section row row--padding text--center">
-    {{page.intro}}
-  </div>
-
-  {% if page.sections %}
-  <div class="intro__nav">
-    {% include nav/page-nav.html %}
-  </div>
-  {% endif %}
-
-</div>
-
-
-
-<div class="vpad-bottom--xl">
-  {% for prize in page.prizes %}
-    <div class="row row--padding bob{% cycle "", " bob--swap" %}">
-
-      <div class="bob__image">
-        <div class="bg-img bg-img--4-3 bg-img--rounded" style="background-image: url({{site.baseurl}}/img/content/competition/{{prize.id}}.jpg);"></div>
-      </div>
-
-      <div class="bob__text">
-        <h4 class="title title--md title--bold title--display">{{prize.title}}</h4>
-        <hr class="hr--left">
-        {{prize.description}}
-        <a href="#enter" class="btn btn--solid">Enter now</a>
-      </div>
-
-    </div>
-  {% endfor %}
-</div>
-
-
-
-<div class="section bg--grey-lightest">
-  <div class="wp" id="enter"></div>
-  <div class="row row--padding text--center">
-    <h3 class="title title--lg title--bold">Enter below...</h3>
-  </div>
-  <div class="row row--padding">
-
-  </div>
-</div>

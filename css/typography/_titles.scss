@@ -8,6 +8,7 @@
 
   &--display {
     font-family: $font-family-headline-02;
+    font-weight: 400;
   }
 
   &--core {
@@ -21,8 +22,8 @@
   &--super + *  { padding-top: 15px !important; }
   &--sub        { padding-top: 15px !important; }
   &--light      { font-weight: 300; }
-  &--bold       { font-weight: 500; }
-  &--bolder     { font-weight: 600; }
+  &--bold       { font-weight: 600; }
+  &--bolder     { font-weight: 700; }
   &--kerning    { letter-spacing: .15em; }
   &--kerning-lg { letter-spacing: .3em; }
   &--tight      { line-height: .9; }
@@ -68,13 +69,18 @@
     &:before,
     &:after {
       content: "";
+      background-image: url('../img/icons/pattern-line.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.3;
       position: absolute;
       top: 50%;
-      margin-top: -2px;
-      height: 4px;
+      height: 18px;
+      margin-top: -9px;
       width: $line-width;
-      border-top: 1px solid $grey-lighter;
-      border-bottom: 1px solid $grey-lighter;
+      .text--white & {
+        background-image: url('../img/icons/pattern-line-wh.svg');
+      }
     }
     &:before { left: -$line-width; }
     &:after { right: -$line-width; }

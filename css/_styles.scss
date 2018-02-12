@@ -13,6 +13,7 @@
   &--grey-lightest { background-color: $grey-lightest; }
 
   &--theme-primary { background-color: $theme-primary; }
+  &--theme-secondary { background-color: $theme-secondary; }
 
   &--fixed {
     background-repeat: no-repeat;
@@ -22,6 +23,7 @@
     .touch & { background-attachment: scroll; }
   }
   &--rounded { border-radius: 4px; }
+  &--shadow { @include shadow; }
 }
 
 
@@ -44,5 +46,38 @@
   @include bp(xl){
     &__text { @include span(6); }
     &__image { @include span(6 last); }
+  }
+}
+
+
+
+.prize {
+  @include transition;
+  box-shadow: 0;
+  &:hover {
+    transform: scale(1.025);
+    @include shadow;
+  }
+}
+
+
+
+.competition-bg {
+  background-color: $theme-secondary;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

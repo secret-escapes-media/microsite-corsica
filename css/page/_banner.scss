@@ -22,7 +22,7 @@ $core-nav-height-sm:  $s8;
   &__content {
     display: table-cell;
     vertical-align: middle;
-    text-shadow: 0 0 25px rgba(29,44,53,0.8);
+    text-shadow: 0 0 25px rgba($theme-secondary,0.5);
   }
 
   &__title {
@@ -31,8 +31,8 @@ $core-nav-height-sm:  $s8;
     display: block;
     margin: auto;
     font-size: $s7;
-    @include bp(md){ font-size: $s10; }
-    @include bp(xl){ font-size: $s12; }
+    @include bp(md){ font-size: $s9; }
+    @include bp(xl){ font-size: $s11; }
   }
 
   &__bg {
@@ -54,6 +54,22 @@ $core-nav-height-sm:  $s8;
     bottom: 0;
     width: 100%;
     background-color: rgba($white,0.8);
+  }
+
+  &--competition {
+    .banner__content {
+      padding-top: $core-nav-height-sm;
+      @include bp(md){
+        padding-top: $core-nav-height;
+      }
+    }
+    .banner__nav {
+      bottom: auto;
+      top: $core-nav-height-sm;
+      @include bp(md){
+        top: $core-nav-height;
+      }
+    }
   }
 
 }

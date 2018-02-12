@@ -47,6 +47,7 @@
   }
   &--hover:hover {
     transform: scale(1.025); @include shadow;
+    .bg-img__bg { transform: scale(1.025); }
   }
 
   &__credit {
