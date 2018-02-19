@@ -5,6 +5,7 @@ clients:
 
   - name: Visit Corsica
     link: "https://www.visit-corsica.com/en"
+    svg: true
 
   - name: France
     link: "http://uk.france.fr/en/feel-corsica-0"
