@@ -4,6 +4,7 @@
   padding-bottom: $s6;
   text-align: center;
   background-color: $grey-darkest;
+  & hr { background-color: rgba($white,0.3); }
   &__logos {
     padding-bottom: $s0;
     .logo {

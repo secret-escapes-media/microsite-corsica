@@ -50,13 +50,14 @@ layout: default
 
   <div class="row row--padding row--4-4-4-gutters vpad-bottom--xl">
     {% for prize in page.prizes %}
-      <a href="#enter" class="prize col bg--grey-lightest bg--rounded bg--shadow">
+      <a href="#enter" class="prize col bg--grey-lightest bg--shadow">
 
-        <div class="bg-img bg-img--1-1" style="background-image: url({{site.baseurl}}/img/content/competition/{{prize.id}}.jpg);"></div>
+        <div class="bg-img bg-img--16-9 bg-img--lg-1-1" style="background-image: url({{site.baseurl}}/img/content/competition/{{prize.id}}.jpg);"></div>
 
         <div class="row row--padding vpad--sm text--center">
-          <h3 class="title title--xs title--bolder">{{prize.title}}</h3>
-          <h5 class="title title--xxxxs title--bolder title--kerning title--upper">{{prize.subtitle}}</h5>
+          <h3 class="title title--xs title--bold title--upper">{{prize.title}}</h3>
+          <hr class="hr--center">
+          <span class="title title--xxxs title--bold title--sub">{{prize.subtitle}}</span>
         </div>
 
       </a>
@@ -71,7 +72,7 @@ layout: default
     <h3 class="title title--lg title--bold">Enter below...</h3>
 
     <div class="row row--padding">
-      Form
+      <iframe src="https://promotion4575.strutta.me" width="100%" height="800"> </iframe>
     </div>
 
   </div>

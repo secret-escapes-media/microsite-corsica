@@ -29,9 +29,14 @@
       margin-left: 1em;
     }
   }
+  &--france { // max-width for this is about 150x46px
+    width: 110px;
+    &-sm { width: 90px; }
+    & + * { padding-left: 1em; }
+  }
   &--visit-corsica { // max-width for this is about 150x46px
-    width: 165px;
-    &-sm { width: 130px; }
+    width: 135px;
+    &-sm { width: 110px; }
     & + * { padding-left: 1em; }
   }
   &--air-corsica { // max-width for this is about 150x46px

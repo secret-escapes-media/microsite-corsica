@@ -19,8 +19,8 @@
   &--color { color: $headline; }
 
   & + *         { padding-top: .75em; }
-  &--super + *  { padding-top: 15px !important; }
-  &--sub        { padding-top: 15px !important; }
+  &--super + *  { padding-top: 10px !important; }
+  &--sub        { padding-top: 10px !important; }
   &--light      { font-weight: 300; }
   &--bold       { font-weight: 600; }
   &--bolder     { font-weight: 700; }
@@ -60,30 +60,32 @@
 
 
 
-  $line-width: 100px;
-  &--lined {
-    position: relative;
-    display: inline-block;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    &:before,
-    &:after {
-      content: "";
-      background-image: url('../img/icons/pattern-line.svg');
-      background-size: contain;
-      background-repeat: no-repeat;
-      opacity: 0.3;
-      position: absolute;
-      top: 50%;
-      height: 18px;
-      margin-top: -9px;
-      width: $line-width;
-      .text--white & {
-        background-image: url('../img/icons/pattern-line-wh.svg');
+  @include bp(lg){
+    $line-width: 100px;
+    &--lined {
+      position: relative;
+      display: inline-block;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      &:before,
+      &:after {
+        content: "";
+        background-image: url('../img/icons/pattern-line.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+        position: absolute;
+        top: 50%;
+        height: 18px;
+        margin-top: -9px;
+        width: $line-width;
+        .text--white & {
+          background-image: url('../img/icons/pattern-line-wh.svg');
+        }
       }
+      &:before { left: -$line-width; }
+      &:after { right: -$line-width; }
     }
-    &:before { left: -$line-width; }
-    &:after { right: -$line-width; }
   }
 
 }

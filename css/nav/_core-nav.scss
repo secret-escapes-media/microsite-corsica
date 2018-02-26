@@ -36,7 +36,7 @@ $core-nav-padding-sm: $s0;
 
 // ---------- NAV FOR CORE SE SITE ----------
 
-$logo-bp: 900px;
+$logo-bp: 1000px;
 $nav-list-bp: 1000px;
 .core-nav {
   height: 100%;
@@ -178,6 +178,7 @@ $mobile-nav-width: 75%;
     background: rgba($grey-darker,.85);
     text-align: center;
      > * { vertical-align: middle; }
+    & .logo + .logo { margin-top: 0.5em; }
     @include bp($logo-bp){ display: none; }
   }
   @include bp($nav-list-bp){ display: none; }

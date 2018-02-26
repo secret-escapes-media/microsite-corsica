@@ -125,14 +125,8 @@ sections:
 flights:
   title: Discover this glorious island with Air Corsica
   description: >
-    <p class="text--lg">Step from London to Bastia, Ajaccio or Figari – so quick is the journey, that you’ll still be full from your beans on toast by the time you alight at an Ajaccio cafe, ready for a plate of Fritelli Castagnini. In just two hours you too can discover the delights of this Mediterranean starlet. Fly with Air Corsica from Stansted, with weekly flights to three Corsica destinations. Your escape starts here.</p>
+    <p class="text--lg">Step from London to Bastia, Ajaccio or Figari – so quick is the journey, that you’ll still be full from your breakfast by the time you alight at an Ajaccio cafe, ready for a plate of Fritelli Castagnini. In just two hours you too can discover the delights of this Mediterranean starlet. Plus there’s no need to pack light – a check-in bag is included in your ticket. Fly with Air Corsica from Stansted, with weekly flights to three Corsica destinations from just £49. Your escape starts here.</p>
 
-  prices-title: Flight Options
-  prices:
-    - title: Economy return from
-      price: "659"
-    - title: Business return from
-      price: "3,499"
 
 
 
@@ -159,12 +153,12 @@ flights:
 
 {% assign sections = page.sections %}
 {% for section in sections %}
-<div class="section vpad--xxxl bg--fixed" style="background-image: url('{{site.baseurl}}/img/content/{{page.id}}/{{section.id}}/bg.jpg');">
+<div class="section topic vpad--xxxl bg--fixed" style="background-image: url('{{site.baseurl}}/img/content/{{page.id}}/{{section.id}}/bg.jpg');">
   <div class="wp" id="section-{{section.id}}"></div>
 
-  <div class="row row--padding row--valign">
+  <div class="row row--padding row--6-6-gutters row--valign">
 
-    <div class="topic__text">
+    <div class="col topic__text">
       <div class="line-length--lg">
         <h2 class="title title--display title--xxl">{{section.title}}</h2>
         <hr class="hr--styled">
@@ -172,11 +166,11 @@ flights:
       </div>
     </div>
 
-    <div class="topic__image hide--xl">
+    <div class="col topic__gallery hide--xl">
       <div class="bg-img bg-img--16-9" style="background-image: url('{{site.baseurl}}/img/content/{{page.id}}/{{section.id}}/01.jpg');"></div>
       <div class="row row--6-6">
-        <div class="col bg-img bg-img--4-3" style="background-image: url('{{site.baseurl}}/img/content/{{page.id}}/{{section.id}}/02.jpg');"></div>
-        <div class="col bg-img bg-img--4-3" style="background-image: url('{{site.baseurl}}/img/content/{{page.id}}/{{section.id}}/03.jpg');"></div>
+        <div class="topic__gallery-image bg-img bg-img--4-3" style="background-image: url('{{site.baseurl}}/img/content/{{page.id}}/{{section.id}}/02.jpg');"></div>
+        <div class="topic__gallery-image bg-img bg-img--4-3" style="background-image: url('{{site.baseurl}}/img/content/{{page.id}}/{{section.id}}/03.jpg');"></div>
       </div>
     </div>
 
@@ -196,7 +190,7 @@ flights:
 
 
 {% assign flights = page.flights %}
-<div class="section vpad--xxl bg--theme-primary text--white">
+<div class="section vpad--xl bg--theme-primary text--white">
   <div class="wp" id="section-flights"></div>
 
 
@@ -209,27 +203,22 @@ flights:
     </div>
   </div>
 
-  <div class="row row--padding text--center vpad-top--md">
-    <h3 class="title title--sm title--kerning title--upper title--lined title--bold">{{flights.prices-title}}</h3>
+  <div class="row row--padding text--center">
+    <h3 class="title title--sm title--kerning title--upper title--lined title--bold">Weekly flights</h3>
   </div>
 
   <!-- FLIGHTS CLASSES -->
-  <div class="row row--xl row--padding row--6-6-gutters text--center">
+  <div class="row row--lg row--padding text--center">
 
-    {% for price in flights.prices %}
-    <div class="col">
-      <div class="bg--black-20 bg--rounded row--padding vpad--md">
-        <p class="text--bold title--xxxs">{{price.title}}</p>
-        <span class="title title--bold">£<span class="title--xs">{{price.price}}*</span></span>
+    <div class="bg--black-20 bg--rounded row--padding vpad--xs">
+      <p class="title title--bold title--xxs">
+        Fly to Corsica from £<span class="title--sm">49*</span>
+      </p>
+      <div class="row vpad--xs">
+        <a href="https://www.aircorsica.com/flights/?utm_source=secretescapes&utm_medium=site&utm_campaign=viewflights" id="tracking-button-flights-section" target="_blank" class="btn btn--white btn--sm">View flights</a>
       </div>
     </div>
-    {% endfor %}
 
-  </div>
-
-  <!-- FLIGHTS CTA -->
-  <div class="row row--padding text--center">
-    <a href="{{site.baseurl}}/air-corsica" id="tracking-button-flights-section" target="_blank" class="btn btn--lg btn--white">View flights</a>
   </div>
 
 

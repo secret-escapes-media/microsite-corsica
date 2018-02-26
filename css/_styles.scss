@@ -40,13 +40,19 @@
 
 
 .topic {
-  @include layout(12 1/2);
+
   &__text {}
-  &__image {}
-  @include bp(xl){
-    &__text { @include span(6); }
-    &__image { @include span(6 last); }
+  &__gallery {
+    border-radius: 4px;
+    overflow: hidden;
+    @include layout(12 1/8);
+    &-image {
+      @include span(6);
+      margin-top: gutter();
+      &:last-child { @include span(6 last); }
+    }
   }
+
 }
 
 
@@ -54,6 +60,9 @@
 .prize {
   @include transition;
   box-shadow: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  display: block;
   &:hover {
     transform: scale(1.025);
     @include shadow;
@@ -63,7 +72,7 @@
 
 
 .competition-bg {
-  background-color: $theme-secondary;
+  background-color: #151b25;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -79,5 +88,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+
+
+.ac {
+
+  &__destination {}
+
+  &__feature {
+    &-image {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 140px;
+    }
   }
 }

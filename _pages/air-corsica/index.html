@@ -1,43 +1,54 @@
 ---
 layout: standard
 id: air-corsica
-title: Air Corsica
+title: Fly with Air Corsica
 nav-order: 2
 
 
 
 intro: >
-  <p class="text--xl">Step from London to Bastia, Ajaccio or Figari – so quick is the journey, that you’ll still be full from breakfast by the time you alight at an Ajaccio cafe, ready for a plate of Fritelli Castagnini. In just two hours you too can discover the delights of this Mediterranean starlet. Fly with Air Corsica from Stansted, with weekly flights to three Corsica destinations. Your escape starts here.</p>
-  <a href="#section-flights" class="btn btn--lg btn--solid">View flights</a>
+  <p class="text--xl">Step from London to Bastia, Ajaccio or Figari – so quick is the journey, that you’ll still be full from your breakfast by the time you alight at an Ajaccio cafe, ready for a plate of Fritelli Castagnini. In just two hours you too can discover the delights of this Mediterranean starlet. Plus there’s no need to pack light – a check-in bag is included in your ticket. Fly with Air Corsica from Stansted, with weekly flights to three Corsica destinations from just <strong>£49</strong>. Your escape starts here.</p>
+  <a href="https://www.aircorsica.com/flights/?utm_source=secretescapes&utm_medium=site&utm_campaign=viewflights" id="tracking-button-intro" class="btn btn--lg btn--solid">View Corsica flights from £49</a>
+
+
+
+destinations:
+
+  - title: Ajaccio
+    id: ajaccio
+    link: https://www.aircorsica.com/flights/ajaccio/?utm_source=secretescapes&utm_medium=site&utm_campaign=ajaccio
+    description: Set off to explore the imperial city with Air Corsica from most French regions as well as Belgium.
+
+  - title: Bastia
+    id: bastia
+    link: https://www.aircorsica.com/flights/bastia/?utm_source=secretescapes&utm_medium=site&utm_campaign=bastia
+    description: The City of Art and History, Bastia also a coastal resort highly appreciated for its favoured environment.
+
+  - title: Figari
+    id: figari
+    link: https://www.aircorsica.com/flights/figari/?utm_source=secretescapes&utm_medium=site&utm_campaign=figarisouthcorsica
+    description: The old city of Bonifacio is fascinating with its calcified cliffs from which it is possible to see the islands of Lavezzi, Cavallo, Sardinia and the salt marshes of Porto-Vecchio.
+
 
 
 
 features:
 
-  - title: Airline features
-    id: airline-01
-    description: >
-      <p>Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+  - title: "One checked bag: 23kg"
+    subtitle: Free of charge
+    id: bag
 
-  - title: Airline features
-    id: airline-02
-    description: >
-      <p>Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+  - title: "One cabin bag: 12kg"
+    subtitle: Free of charge
+    id: cabin
 
+  - title: "A snack"
+    subtitle: Free of charge
+    id: snack
 
-
-
-flights:
-  title: Flights with Air Corsica
-  description: >
-    <p class="text--xl">Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue.</p>
-
-  prices-title: Flight Options
-  prices:
-    - title: Economy return from
-      price: "659"
-    - title: Business return from
-      price: "3,499"
+  - title: "Regional newspapers on board"
+    subtitle: Free of charge
+    id: papers
 
 ---
 
@@ -62,15 +73,21 @@ flights:
 
 
 <div class="section bg--grey-lightest">
-  <div class="row row--xxl row--padding row--6-6-gutters">
+  <div class="row row--xxl row--padding row--4-4-4-gutters">
 
-  {% for feature in page.features %}
+  {% for destination in page.destinations %}
     <div class="col">
-      <div class="bg-img bg-img--16-9" style="background-image: url({{site.baseurl}}/img/content/air-corsica/{{feature.id}}.jpg);"></div>
-      <div class="space--xs"></div>
-      <h4 class="title title--md title--bold">{{feature.title}}</h4>
-      {{feature.description}}
-      <div class="space--xs"></div>
+
+      <a href="{{destination.link}}" id="tracking-destination-tile" class="ac__destination bg-img bg-img--3-4 bg-img--rounded bg--grey-darkest">
+        <div class="bg-img__content text--white">
+          <span class="title title--super title--xxxs title--upper title--bold title--kerning">Fly to</span>
+          <h4 class="title title--md title--bold">{{destination.title}}</h4>
+          <hr class="hr--center">
+          <p class="text--bold">{{destination.description}}</p>
+        </div>
+        <div class="bg-img__bg" style="background-image: url({{site.baseurl}}/img/content/air-corsica/{{destination.id}}.jpg);"></div>
+      </a>
+
     </div>
   {% endfor %}
 
@@ -80,31 +97,49 @@ flights:
 
 
 
-{% assign flights = page.flights %}
-<div class="section vpad--xxl bg--theme-primary text--white">
-  <div class="wp" id="section-flights"></div>
-
+<div class="section bg--grey-lightest">
   <div class="row row--padding text--center">
-    <h3 class="title title--md title--lined title--display title--upper title--kerning">{{flights.prices-title}}</h3>
+    <h3 class="title title--sm title--bold title--lined title--upper title--kerning">Extra services free of charge</h3>
   </div>
 
-  <!-- FLIGHTS CLASSES -->
-  <div class="row row--xl row--padding row--6-6-gutters text--center">
 
-    {% for price in flights.prices %}
-    <div class="col">
-      <div class="bg--black-20 bg--rounded row--padding vpad--md">
-        <p class="text--bold title--xxxs">{{price.title}}</p>
-        <span class="title title--bold">£<span class="title--xs">{{price.price}}*</span></span>
+  <div class="row row--padding row--3-3-3-3-gutters">
+    {% for feature in page.features %}
+      <div class="ac__feature col text--center">
+
+        <div class="row--padding">
+          <div class="ac__feature-image bg-img bg-img--1-1 bg--grey-lightest" style="background-image: url({{site.baseurl}}/img/content/air-corsica/{{feature.id}}.png);"></div>
+        </div>
+        <div class="space--xs"></div>
+        <h4 class="title title--xxs title--bold">{{feature.title}}</h4>
+        <p class="title--sub title title--bold title--upper">{{feature.subtitle}}</p>
+
+      </div>
+    {% endfor %}
+    <div class="space--lg"></div>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="section vpad--xl bg--theme-primary text--white">
+
+  <div class="row row--padding text--center">
+    <h3 class="title title--sm title--kerning title--upper title--lined title--bold">Weekly flights</h3>
+  </div>
+
+  <div class="row row--lg row--padding text--center">
+    <div class="bg--black-20 bg--rounded row--padding vpad--xs">
+      <p class="title title--bold title--xxs">
+        Fly to Corsica from £<span class="title--sm">49*</span>
+      </p>
+      <div class="row vpad--xs">
+        <a href="https://www.aircorsica.com/flights/?utm_source=secretescapes&utm_medium=site&utm_campaign=viewflights" id="tracking-button-flights-section" target="_blank" class="btn btn--white btn--sm">View flights</a>
       </div>
     </div>
-    {% endfor %}
-
-  </div>
-
-  <!-- FLIGHTS CTA -->
-  <div class="row row--padding text--center">
-    <a href="{{site.baseurl}}/air-corsica" id="tracking-button-flights-section" target="_blank" class="btn btn--lg btn--white">View flights</a>
   </div>
 
 </div>

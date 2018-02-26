@@ -30,8 +30,9 @@ $core-nav-height-sm:  $s8;
     line-height: 1.1;
     display: block;
     margin: auto;
-    font-size: $s7;
-    @include bp(md){ font-size: $s9; }
+    font-size: $s5;
+    @include bp(md){ font-size: $s7; }
+    @include bp(lg){ font-size: $s9; }
     @include bp(xl){ font-size: $s11; }
   }
 
@@ -43,10 +44,9 @@ $core-nav-height-sm:  $s8;
     bottom: 0;
     z-index: $z-background;
     background-color: $grey-dark;
-
     @include background-attributes;
     @include max-bp(lg){
-      background-position: center right;
+      background-position: 25% center;
     }
   }
   &__nav {
@@ -58,9 +58,9 @@ $core-nav-height-sm:  $s8;
 
   &--competition {
     .banner__content {
-      padding-top: $core-nav-height-sm;
+      padding-top: $core-nav-height-sm*2;
       @include bp(md){
-        padding-top: $core-nav-height;
+        padding-top: $core-nav-height*2;
       }
     }
     .banner__nav {

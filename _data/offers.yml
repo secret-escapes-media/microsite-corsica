@@ -1,49 +1,63 @@
-- title: Spectacular Oslo & Bergen break with optional fjord tour
-  id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-  description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-  price: 459
-  price-description: per person for 4 nights
-  saved: 37
-  expires: 2018/04/14
-  link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
 
-- title: Farris Bad
-  id: farris-bad
-  location: Larvik, Norway
-  description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-  price: 214
-  price-description: per room per night
-  saved: 33
-  expires: 2018/04/20
-  link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
 
-- title: First Hotel Marin
-  id: first-hotel-marin
-  location: Bergen, Norway
-  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-  price: 48
-  price-description: per room per night
-  saved: 43
-  expires: 2018/04/20
-  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
 
-- title: Magic Hotel
-  id: magic-hotel
-  location: Bergen, Norway
-  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
-  price: 73
+- title: Sofitel Golfe d'Ajaccio Thalassa sea & spa
+  id: sofitel-golfe-d-ajaccio-thalassa-sea-spa
+  location: Corsica, France
+  description: A sublime five-star Sofitel spa resort in Corsica
+  price: 171
   price-description: per room per night
-  saved: 55
-  expires: 2018/04/20
-  link: https://www.secretescapes.com/magic-hotel-bergen-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=14_Norway_201704
+  saved: 42
+  expires: 2018/03/01
+  link: https://www.secretescapes.com/sofitel-golfe-dajaccio-thalassa-sea-and-spa-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
 
-- title: Sola Strand Hotel
-  id: sola-strand-hotel
-  location: Sola, Norway
-  description: Discover one of the world's sixth best beaches on Norway's gorgeous coast, with breakfast and more
-  price: 79
+
+
+- title: Hotel le Goeland
+  id: hotel-le-goeland
+  location: Porto-Vecchio, Corsica
+  description: A simple and stylish seaside stay on the beautiful French island of Corsica
+  price: 165
   price-description: per room per night
-  saved: 47
-  expires: 2018/04/20
-  link: https://www.secretescapes.com/sola-strand-hotel-sola-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=15_Norway_201704
+  saved: 20
+  expires: 2018/03/01
+  link: https://www.secretescapes.com/hotel-le-goeland-porto-vecchio-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
+
+
+
+- title: U Palazzu Serenu
+  id: u-palazzu-serenu
+  location: Corsica, France
+  description: Boutique interiors and spectacular views in Corsica's northern hills
+  price: 131
+  price-description: per room per night
+  saved: 27
+  expires: 2018/03/01
+  link: https://www.secretescapes.com/u-palazzu-serenu-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
+
+
+
+- title: Corsica beach holiday with full board, watersports and activities
+  id: corsica-beach-holiday-with-full-board-watersports-and-activities
+  location: San Lucianu Beach Resort, Corsica
+  description: Unwind or get active with a break on Corsica's tranquil coast
+  price: 499
+  price-description: per person for 7 nights
+  saved: 20
+  expires: 2018/03/01
+  link: https://www.secretescapes.com/corsica-beach-holiday-with-full-board-watersports-and-activities-san-lucianu-beach-resort-corsica/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
+
+
+
+- title: Hôtel Mare e Monti
+  id: hotel-mare-e-monti
+  location: Corsica, France
+  description: An elegant renovated mansion in the Corsican hills
+  price: 76
+  price-description: per room per night
+  saved: 24
+  expires: 2018/03/01
+  link: https://www.secretescapes.com/hotel-mare-e-monti-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
+
+
+

@@ -1,6 +1,7 @@
 // layouts for all sections, using susy grid plugin
 
 
+
 // -------- general --------
 
 $susy:(
@@ -11,6 +12,7 @@ $susy:(
 );
 $gutters:( gutters: 1/2 );
 $page-margin: $s4;
+
 
 
 // -------- two col grid mixin --------
@@ -32,6 +34,7 @@ $page-margin: $s4;
     }
   }
 }
+
 
 
 .row {
@@ -91,5 +94,15 @@ $page-margin: $s4;
       @include gallery($gutters 4);
       margin-bottom: gutter();
     }
+
+    // three columns without gutter
+    &--3-3-3-3 > .col { @include gallery(3); }
+
+    // three columns with gutter
+    &--3-3-3-3-gutters > .col {
+      @include gallery($gutters 3);
+      margin-bottom: gutter();
+    }
+
   }
 }
