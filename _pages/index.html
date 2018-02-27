@@ -183,6 +183,12 @@ flights:
     {% endfor %}
   </div>
 
+  {% if forloop.last %}
+    <div class="row row--padding vpad-top--xl text--center">
+      <a href="https://www.france.fr/en/corsica" target="_blank" id="tracking-france-last-btn" class="btn btn--lg btn--solid">Discover more about Corsica</a>
+    </div>
+  {% endif %}
+
 </div>
 {% endfor %}
 
