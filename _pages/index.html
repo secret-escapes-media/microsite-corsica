@@ -24,6 +24,7 @@ sections:
 
   - title: Outdoors
     id: outdoors
+    external-link: https://www.visit-corsica.com/en/The-best-of-Corsica/Sports-and-outdoor-activities
     description: >
       <p class="text--xl">Corsica is a sublime landscape for outdoor lovers. Though the beaches may get plenty attention, the mountains, river valleys and ancient forests of the interior offer a wealth of glorious landscapes and intrepid adventures. Sea and mountain sit side-by-side, creating a unique terrain that makes Corsica one of the finest, untouched outdoor spots in the Mediterranean. </p>
     pois-title: Outdoor Highlights
@@ -49,6 +50,7 @@ sections:
 
   - title: Coast
     id: coast
+    external-link: https://www.france.fr/en/corsica/article/10-unmissable-highlights-corsican-coast
     description: >
       <p class="text--xl">Locked in the heart of the Mediterranean, Corsica is awash with inviting beaches of pure white sand, kissed by gloriously turquoise waters. Dive into its depths and discover fascinating marine life, or find your own private paradise in the Scandola Reserve.</p>
     pois-title: Coastal Highlights
@@ -74,6 +76,7 @@ sections:
 
   - title: Culture
     id: culture
+    external-link: https://www.visit-corsica.com/en/The-best-of-Corsica/Culture-and-heritage
     description: >
       <p class="text--xl">Corsica is fiercely proud of its identity, with cultural quirks and traditions that long to be discovered. Unpick the Corsican life by exploring its heritage and history, discovering its most famous resident and unearthing the mountain life in a host of beautiful villages.</p>
     pois-title: Culture Highlights
@@ -99,6 +102,7 @@ sections:
 
   - title: Food & Drink
     id: food-drink
+    external-link: https://www.france.fr/en/corsica/article/corsican-cuisine-0
     description: >
       <p class="text--xl">Corsica is blessed with a verdant landscape that offers lowlands that flower with herbs, forests of chestnuts, ancient vineyards, seas full of fish, and livestock that runs wild across the mountains. Discover local delicacies, delectable wines and a thriving fine-dining culture.</p>
     pois-title: Food and Drink Highlights
@@ -183,11 +187,9 @@ flights:
     {% endfor %}
   </div>
 
-  {% if forloop.last %}
-    <div class="row row--padding vpad-top--xl text--center">
-      <a href="https://www.france.fr/en/corsica" target="_blank" id="tracking-france-last-btn" class="btn btn--lg btn--solid">Discover more about Corsica</a>
-    </div>
-  {% endif %}
+  <div class="row row--padding vpad-top--xl text--center">
+    <a href="{{section.external-link}}" target="_blank" id="tracking-ext-link-{{section.id}}" class="btn btn--lg btn--solid">Discover more about Corsica</a>
+  </div>
 
 </div>
 {% endfor %}
