@@ -25,39 +25,15 @@
 
 
 
-- title: U Palazzu Serenu
-  id: u-palazzu-serenu
+- title: Hotel E Caselle
+  id: hotel-e-caselle
   location: Corsica, France
-  description: Boutique interiors and spectacular views in Corsica's northern hills
-  price: 131
+  description: A rural and rustic riverside sleep in lush Corsica
+  price: 90
   price-description: per room per night
-  saved: 27
+  saved: 48
   expires: 2018/03/14
-  link: https://www.secretescapes.com/u-palazzu-serenu-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
-
-
-
-- title: Hôtel Mare e Monti
-  id: hotel-mare-e-monti
-  location: Corsica, France
-  description: An elegant renovated mansion in the Corsican hills
-  price: 76
-  price-description: per room per night
-  saved: 24
-  expires: 2018/03/14
-  link: https://www.secretescapes.com/hotel-mare-e-monti-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
-
-
-
-- title: Relaxing Corsica holiday near the beach
-  id: relaxing-corsica-holiday-near-the-beach
-  location: Hotel U Ricordu, France
-  description: Escape to a relaxing coastal retreat in scenic Corsica
-  price: 459
-  price-description: per person for 7 nights
-  saved: 21
-  expires: 2018/03/14
-  link: https://www.secretescapes.com/relaxing-holiday-in-corsica-hotel-u-ricordu-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
+  link: https://www.secretescapes.com/hotel-e-caselle-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 
 
@@ -70,6 +46,18 @@
   saved: 29
   expires: 2018/03/14
   link: https://www.secretescapes.com/bartaccia-hotel-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
+
+
+
+- title: Relaxing Corsica holiday near the beach
+  id: relaxing-corsica-holiday-near-the-beach
+  location: Hotel U Ricordu, France
+  description: Escape to a relaxing coastal retreat in scenic Corsica
+  price: 459
+  price-description: per person for 7 nights
+  saved: 21
+  expires: 2018/03/14
+  link: https://www.secretescapes.com/relaxing-holiday-in-corsica-hotel-u-ricordu-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_Feb2018
 
 
 
