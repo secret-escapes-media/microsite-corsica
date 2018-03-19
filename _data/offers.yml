@@ -77,3 +77,33 @@
   saved: 31
   expires: 2018/03/27
   link: https://www.secretescapes.com/scenic-and-central-corsica-holiday-residence-le-home-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
+
+- title: Isulella Hotel & Restaurant
+  id: isulella-hotel-restaurant
+  location: Corsica, France
+  description: A Corsica boutique overlooking Porto-Vecchio’s glamorous marina
+  price: 140
+  price-description: per room per night
+  saved: 25
+  expires: 2018/03/27
+  link: https://www.secretescapes.com/isulella-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
+
+- title: Odalys Holiday Club Sognu di Mare
+  id: odalys-holiday-club-sognu-di-mare
+  location: Corsica, France
+  description: A restful, family-friendly apartment stay in scenic Corsica
+  price: 36
+  price-description: per apartment per night
+  saved: 29
+  expires: 2018/03/27
+  link: https://www.secretescapes.com/odalys-holiday-club-sognu-di-mare-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
+
+- title: Hôtel Cala di Greco
+  id: hotel-cala-di-greco
+  location: Corsica, France
+  description: A suite and lavish natural surrounds in Corsica's Bonifacio
+  price: 130
+  price-description: per suite per night
+  saved: 37
+  expires: 2018/03/27
+  link: https://www.secretescapes.com/hotel-cala-di-greco-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
