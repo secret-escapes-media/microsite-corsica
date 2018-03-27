@@ -1,4 +1,3 @@
-
 - title: 5* Corsica beach holiday at a spa hotel
   id: 5-corsica-beach-holiday-at-a-spa-hotel
   location: Sofitel Golfe d'Ajaccio Thalassa Sea & Spa, France
@@ -68,3 +67,23 @@
   saved: 37
   expires: 2018/03/27
   link: https://www.secretescapes.com/hotel-cala-di-greco-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
+
+- title: Les Hameaux de Capra Scorsa
+  id: les-hameaux-de-capra-scorsa
+  location: Corsica, France
+  description: Spacious, self-catering apartment with private terrace in beautiful Corsica
+  price: 44
+  price-description: per apartment per night
+  saved: 29
+  expires: 2018/04/04
+  link: https://www.secretescapes.com/les-hameaux-de-capra-scorsa-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
+
+- title: Casadelmar
+  id: casadelmar
+  location: Porto-Vecchio, Corsica, France
+  description: A five-star gem with two Michelin-starred dining on Corsica's coast
+  price: 314
+  price-description: per room per night
+  saved: 39
+  expires: 2018/04/04
+  link: https://www.secretescapes.com/casadelmar-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
