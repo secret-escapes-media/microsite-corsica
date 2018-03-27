@@ -24,7 +24,7 @@ sections:
 
   - title: Outdoors
     id: outdoors
-    external-link: https://www.visit-corsica.com/en/The-best-of-Corsica/Sports-and-outdoor-activities
+    # external-link: https://www.visit-corsica.com/en/The-best-of-Corsica/Sports-and-outdoor-activities
     description: >
       <p class="text--xl">Corsica is a sublime landscape for outdoor lovers. Though the beaches may get plenty attention, the mountains, river valleys and ancient forests of the interior offer a wealth of glorious landscapes and intrepid adventures. Sea and mountain sit side-by-side, creating a unique terrain that makes Corsica one of the finest, untouched outdoor spots in the Mediterranean. </p>
     pois-title: Outdoor Highlights
@@ -187,9 +187,11 @@ flights:
     {% endfor %}
   </div>
 
-  <div class="row row--padding vpad-top--xl text--center">
-    <a href="{{section.external-link}}" target="_blank" id="tracking-ext-link-{{section.id}}" class="btn btn--lg btn--solid">Discover more about Corsica</a>
-  </div>
+  {% if section.external-link %}
+    <div class="row row--padding vpad-top--xl text--center">
+      <a href="{{section.external-link}}" target="_blank" id="tracking-ext-link-{{section.id}}" class="btn btn--lg btn--solid">Discover more about Corsica</a>
+    </div>
+  {% endif %}
 
 </div>
 {% endfor %}
