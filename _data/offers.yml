@@ -1,33 +1,3 @@
-- title: 5* Corsica beach holiday at a spa hotel
-  id: 5-corsica-beach-holiday-at-a-spa-hotel
-  location: Sofitel Golfe d'Ajaccio Thalassa Sea & Spa, France
-  description: A sublime five-star Sofitel spa resort in Corsica
-  price: 395
-  price-description: per person for 3 nights
-  saved: 38
-  expires: 2018/03/27
-  link: https://www.secretescapes.com/5-star-corsica-beach-holiday-at-a-spa-hotel-sofitel-golfe-dajaccio-thalassa-sea-and-spa-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
-
-- title: Lilium Maris
-  id: lilium-maris
-  location: Corsica, France
-  description: A charming beachfront Corsica stay in Sartène
-  price: 80
-  price-description: per room per night
-  saved: 46
-  expires: 2018/03/27
-  link: https://www.secretescapes.com/lilium-maris-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
-
-- title: La Signoria
-  id: la-signoria
-  location: Corsica, France
-  description: An award-winning Relais & Châteaux retreat in Corsica
-  price: 236
-  price-description: per room per night
-  saved: 25
-  expires: 2018/03/27
-  link: https://www.secretescapes.com/la-signoria-corsica-france-uk/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
-
 - title: Scenic & central Corsica holiday
   id: scenic-central-corsica-holiday
   location: Résidence Le Home, France
@@ -87,3 +57,13 @@
   saved: 39
   expires: 2018/04/04
   link: https://www.secretescapes.com/casadelmar-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
+
+- title: Hotel Le Golfe Piscine
+  id: hotel-le-golfe-piscine
+  location: Corsica, France
+  description: A luxurious stay on the picturesque island of Corsica
+  price: 111
+  price-description: per room per night
+  saved: 52
+  expires: 04/04/2018
+  link: https://www.secretescapes.com/hotel-le-golfe-piscine-et-spa-casanera-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
