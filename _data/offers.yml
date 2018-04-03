@@ -5,7 +5,7 @@
   price: 449
   price-description: per person for 7 nights
   saved: 31
-  expires: 2018/03/27
+  expires: 2018/04/04
   link: https://www.secretescapes.com/scenic-and-central-corsica-holiday-residence-le-home-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 - title: Isulella Hotel & Restaurant
@@ -15,7 +15,7 @@
   price: 140
   price-description: per room per night
   saved: 25
-  expires: 2018/03/27
+  expires: 2018/04/04
   link: https://www.secretescapes.com/isulella-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 - title: Odalys Holiday Club Sognu di Mare
@@ -25,7 +25,7 @@
   price: 36
   price-description: per apartment per night
   saved: 29
-  expires: 2018/03/27
+  expires: 2018/04/04
   link: https://www.secretescapes.com/odalys-holiday-club-sognu-di-mare-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 - title: Hôtel Cala di Greco
@@ -35,7 +35,7 @@
   price: 130
   price-description: per suite per night
   saved: 37
-  expires: 2018/03/27
+  expires: 2018/04/04
   link: https://www.secretescapes.com/hotel-cala-di-greco-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 - title: Les Hameaux de Capra Scorsa
@@ -55,7 +55,7 @@
   price: 314
   price-description: per room per night
   saved: 39
-  expires: 2018/04/04
+  expires: 2018/04/11
   link: https://www.secretescapes.com/casadelmar-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 - title: Hotel Le Golfe Piscine
@@ -65,5 +65,25 @@
   price: 111
   price-description: per room per night
   saved: 52
-  expires: 04/04/2018
+  expires: 2018/04/11
   link: https://www.secretescapes.com/hotel-le-golfe-piscine-et-spa-casanera-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
+
+- title: Suite Home Porticcio
+  id: suite-home-porticcio
+  location: Corsica, France
+  description: Modern, fully equipped apartments in striking Corsica
+  price: 77
+  price-description: per room per night
+  saved: 48
+  expires: 2018/04/11
+  link: https://www.secretescapes.com/suite-home-porticcio-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
+
+- title: U Capu Biancu
+  id: u-capu-biancu
+  location: Corsica, France
+  description: A rustic beach retreat on Corsica’s sunny southern coast
+  price: 281
+  price-description: per room per night
+  saved: 51
+  expires: 2018/04/11
+  link: https://www.secretescapes.com/u-capu-biancu-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
