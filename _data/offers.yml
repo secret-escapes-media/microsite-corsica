@@ -1,5 +1,3 @@
-
-
 - title: Casadelmar
   id: casadelmar
   location: Porto-Vecchio, Corsica, France
@@ -7,7 +5,7 @@
   price: 314
   price-description: per room per night
   saved: 39
-  expires: 2018/04/11
+  expires: 2018/04/10
   link: https://www.secretescapes.com/casadelmar-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 - title: Hotel Le Golfe Piscine
@@ -17,7 +15,7 @@
   price: 111
   price-description: per room per night
   saved: 52
-  expires: 2018/04/11
+  expires: 2018/04/10
   link: https://www.secretescapes.com/hotel-le-golfe-piscine-et-spa-casanera-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 - title: Suite Home Porticcio
@@ -27,7 +25,7 @@
   price: 77
   price-description: per room per night
   saved: 48
-  expires: 2018/04/11
+  expires: 2018/04/10
   link: https://www.secretescapes.com/suite-home-porticcio-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
 
 - title: U Capu Biancu
@@ -37,5 +35,25 @@
   price: 281
   price-description: per room per night
   saved: 51
-  expires: 2018/04/11
+  expires: 2018/04/10
   link: https://www.secretescapes.com/u-capu-biancu-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
+
+- title: La Plage Casadelmar
+  id: la-plage-casadelmar
+  location: Corsica, France
+  description: A Corsica boutique near Porto-Vecchio’s glittering marina
+  price: 378
+  price-description: per room per night
+  saved: 44
+  expires: 2018/04/17
+  link: https://www.secretescapes.com/la-plage-casadelmar-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
+
+- title: Hôtel & Spa des Pêcheurs
+  id: hotel-spa-des-pecheurs
+  location: Corsica, France
+  description: A Small Luxury Hotel of the World on a private Med isle
+  price: 193
+  price-description: per room per night
+  saved: 57
+  expires: 2018/04/17
+  link: https://www.secretescapes.com/hotel-and-spa-des-pecheurs-cavallo-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
