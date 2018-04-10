@@ -1,3 +1,4 @@
+
 - title: Casadelmar
   id: casadelmar
   location: Porto-Vecchio, Corsica, France
@@ -5,18 +6,8 @@
   price: 314
   price-description: per room per night
   saved: 39
-  expires: 2018/04/10
+  expires: 2018/04/17
   link: https://www.secretescapes.com/casadelmar-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
-
-- title: Hotel Le Golfe Piscine
-  id: hotel-le-golfe-piscine
-  location: Corsica, France
-  description: A luxurious stay on the picturesque island of Corsica
-  price: 111
-  price-description: per room per night
-  saved: 52
-  expires: 2018/04/10
-  link: https://www.secretescapes.com/hotel-le-golfe-piscine-et-spa-casanera-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
 
 - title: Suite Home Porticcio
   id: suite-home-porticcio
@@ -25,7 +16,7 @@
   price: 77
   price-description: per room per night
   saved: 48
-  expires: 2018/04/10
+  expires: 2018/04/17
   link: https://www.secretescapes.com/suite-home-porticcio-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
 
 - title: U Capu Biancu
@@ -35,7 +26,7 @@
   price: 281
   price-description: per room per night
   saved: 51
-  expires: 2018/04/10
+  expires: 2018/04/17
   link: https://www.secretescapes.com/u-capu-biancu-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
 
 - title: La Plage Casadelmar
