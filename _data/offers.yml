@@ -1,14 +1,4 @@
 
-- title: Casadelmar
-  id: casadelmar
-  location: Porto-Vecchio, Corsica, France
-  description: A five-star gem with two Michelin-starred dining on Corsica's coast
-  price: 314
-  price-description: per room per night
-  saved: 39
-  expires: 2018/04/17
-  link: https://www.secretescapes.com/casadelmar-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_March2018
-
 - title: Suite Home Porticcio
   id: suite-home-porticcio
   location: Corsica, France
@@ -16,18 +6,8 @@
   price: 77
   price-description: per room per night
   saved: 48
-  expires: 2018/04/17
+  expires: 2018/04/24
   link: https://www.secretescapes.com/suite-home-porticcio-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
-
-- title: U Capu Biancu
-  id: u-capu-biancu
-  location: Corsica, France
-  description: A rustic beach retreat on Corsica’s sunny southern coast
-  price: 281
-  price-description: per room per night
-  saved: 51
-  expires: 2018/04/17
-  link: https://www.secretescapes.com/u-capu-biancu-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
 
 - title: La Plage Casadelmar
   id: la-plage-casadelmar
@@ -36,7 +16,7 @@
   price: 378
   price-description: per room per night
   saved: 44
-  expires: 2018/04/17
+  expires: 2018/04/24
   link: https://www.secretescapes.com/la-plage-casadelmar-corsica-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
 
 - title: Hôtel & Spa des Pêcheurs
@@ -46,5 +26,5 @@
   price: 193
   price-description: per room per night
   saved: 57
-  expires: 2018/04/17
+  expires: 2018/04/24
   link: https://www.secretescapes.com/hotel-and-spa-des-pecheurs-cavallo-france/sale?utm_source=microsite&utm_medium=SE_media&utm_campaign=Corsica_April2018
