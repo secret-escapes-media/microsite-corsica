@@ -93,12 +93,13 @@
   }
   $circle-height: 50px;
   &__saved {
-      display: table-cell;
-      padding-right: $s1;
-      line-height: 1.2;
-      text-align: center;
-      border-right: 1px solid $grey-lighter;
-      vertical-align: bottom !important;
+    display: table-cell;
+    padding-right: $s1;
+    line-height: 1.2;
+    text-align: center;
+    border-right: 1px solid $grey-lighter;
+    vertical-align: bottom !important;
+    &+*{ padding-left: $s2; }
     &-num {
       display: block;
       width: $circle-height;
@@ -125,12 +126,6 @@
   &__details {
     display: table-cell;
     vertical-align: middle;
-    padding-left: $s2;
-    @include bp(sm){
-      padding-left: $s2;
-    }
-    @include bp(md){
-    }
   }
   &__price {
     color: $orange;
